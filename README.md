@@ -1,11 +1,11 @@
-# 🩺 Diabetes Prediction Web App (Machine Learning + Streamlit)
+# Diabetes Prediction Web App (Machine Learning + Streamlit)
 
 An end-to-end Machine Learning project that predicts the likelihood of diabetes based on patient health data.  
 The project includes model training, evaluation, threshold-based prediction logic, and an interactive Streamlit web interface with probability-based results.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Logistic Regression model for diabetes prediction
 - StandardScaler for feature normalization
@@ -17,7 +17,7 @@ The project includes model training, evaluation, threshold-based prediction logi
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 1. Data loading & exploration
 2. Feature-target separation
@@ -30,7 +30,7 @@ The project includes model training, evaluation, threshold-based prediction logi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.10
 - Pandas
@@ -40,7 +40,7 @@ The project includes model training, evaluation, threshold-based prediction logi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 DIABETIES_PREDICTION/
 │
@@ -68,7 +68,7 @@ DIABETIES_PREDICTION/
 
 ---
 
-## ▶️ How to Run the Project
+## ▶How to Run the Project
   streamlit run app.py 
 ### 1️⃣ Clone the repository
 ```bash
@@ -77,8 +77,8 @@ cd Diabetes_prediction
 
 2️⃣ Create virtual environment (recommended)
 
-python -m venv .venv
-.venv\Scripts\activate   # Windows
+python -m venv .pre
+.pre\Scripts\activate   # Windows
 # source .venv/bin/activate   # Mac/Linux
 
 3️⃣ Install dependencies
@@ -105,7 +105,7 @@ streamlit run app.py
 
         Probability < 0.4 → No Diabetes
 
-🎯 Motivation
+Motivation
 
 This project was built to demonstrate practical Machine Learning skills with a focus on:
 
