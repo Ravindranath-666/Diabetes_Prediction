@@ -7,28 +7,23 @@ The project includes model training, evaluation, threshold-based prediction logi
 
 ## Features
 
-- Logistic Regression model for diabetes prediction
+- Logistic Regression model for diabetes prediction (achieving ~73% accuracy)
 - StandardScaler for feature normalization
-- Custom probability threshold (0.4) for better recall
 - Interactive Streamlit web UI
 - Probability-based prediction output
 - Clean project structure suitable for production-level demos
 - Logo & banner images included for better UI
 
----
-
 ##  Machine Learning Pipeline
 
-1. Data loading & exploration
-2. Feature-target separation
-3. Train-test split with stratification
-4. Feature scaling using `StandardScaler`
-5. Model training using `LogisticRegression`
-6. Probability-based predictions
-7. Model evaluation using confusion matrix
-8. Model & scaler serialization using Pickle
-
----
+- Data loading & exploration
+- Feature-target separation
+- Train-test split with stratification
+- Feature scaling using StandardScaler
+- Model training using LogisticRegression
+- Probability-based predictions
+- Model evaluation using confusion matrix
+- Model & scaler serialization using Pickle
 
 ## Tech Stack
 
@@ -37,8 +32,6 @@ The project includes model training, evaluation, threshold-based prediction logi
 - Scikit-learn
 - Streamlit
 - Pickle
-
----
 
 ## Project Structure
 
@@ -65,8 +58,6 @@ DIABETIES_PREDICTION/
 ├── README.md
 └── .gitignore
 
-
----
 
 ## ▶How to Run the Project
   streamlit run app.py 
@@ -97,13 +88,13 @@ streamlit run app.py
 
     Model outputs probability using predict_proba
 
-    Custom threshold = 0.4
+    Default threshold = 0.5
 
     Prediction rule:
 
-        Probability ≥ 0.4 → Diabetes
+        Probability ≥ 0.5 → Diabetes
 
-        Probability < 0.4 → No Diabetes
+        Probability < 0.5 → No Diabetes
 
 Motivation
 
@@ -117,5 +108,6 @@ This project was built to demonstrate practical Machine Learning skills with a f
 
 👤 Author
 
-Bala Venkata Naga Ravindranath Sangam
-MSc AI & Robotics
+** Bala Venkata Naga Ravindranath Sangam **  
+🎓 MSc Artificial Intelligence and Robotics  
+🏛️ University of Hertfordshire
